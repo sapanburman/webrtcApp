@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webrtc</title>
+    <script src="./js/adepter.js"></script>
+    <script src="./js/socket.io.js"></script>
+    <script src="./js/main.js"></script>
+   
+</head>
+
+<body>
+    <script></script>
+    <video id="received_video" autoplay></video>
+      <video id="local_video" autoplay muted></video>
+    <p>Enter a username: <input id="name" type="text" maxlength="12" required autocomplete="username"
+            inputmode="verbatim" placeholder="Username">
+        <input type="button" name="login" value="Log in" onclick="connect()"></p>
+</body>
+
+</html>
